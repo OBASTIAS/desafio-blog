@@ -7,7 +7,7 @@ ruby '2.6.6'
 gem 'rails', '~> 5.2.4'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', group: :development
-gem 'pg', group: :production
+gem 'pg', group: :production 
 gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
 gem 'bootstrap', '~> 4.6'
 gem 'jquery-rails'
