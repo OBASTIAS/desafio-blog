@@ -10,11 +10,9 @@ class PostsController < ApplicationController
       content: params['content'],
       image: params['image']
     )
-    @post.content.gsub!("spoiler"," ")
-    # endif @post.save
-      #redirect_to root_path
-    #end
-    @post.save
+    # @post.content.gsub!("spoiler"," ")
+    if @post.save
       redirect_to root_path
+    end
   end
 end
